@@ -1,0 +1,283 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    /* color: #7f73e3; */
+    color: white;
+    font-family: 'Signika', sans-serif;
+}
+
+body
+{
+    width: 100%;
+    height: 100vh;
+    background-image:url("https://github.com/AndyDiego13/Bam-Banimals-Adventure/blob/main/Images/Fondo.png?raw=true");
+    background-size: cover;
+    background-position: center;
+}
+nav
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 8vh;
+    font-size: 20px;
+}
+
+#home
+{
+    background-color: rgba(127,115,227,0.8);
+}
+
+#charc
+{ 
+    background-color: rgba(255,172,236,0.8);
+}
+#gam
+{
+    background-color: rgba(255,165,0,0.8);   
+}
+#stor
+{
+    background-color: rgba(86,174,255,0.8);   
+}
+.logo
+{
+    display: flex;
+    width: 10%;
+    justify-content: space-around;
+}
+.links
+{
+    display: flex;
+    width: 40%;
+    justify-content: space-around;
+}
+
+.navbar ul li
+{
+    display: inline-block;
+    position: relative;
+}
+
+#home ul li::after
+{
+    background: #6158ae;
+}
+#charc ul li::after
+{
+    background: #b97cab;
+}
+#gam ul li::after
+{
+    background: #b77600;
+}
+#stor ul li::after
+{
+    background: #3d7bb5;
+}
+
+.navbar ul li::after
+{
+    content: '';
+    height: 3px;
+    width: 0;
+    
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    transition: 0.5s;
+}
+
+.navbar ul li:hover:after
+{
+    width: 100%;
+}
+
+.navbar p
+{
+    display: flex;
+    width: 20%;
+    justify-content: space-around;
+}
+
+.title
+{
+    padding: 50px;
+    text-align: center;
+}
+.title div
+{
+    padding: 30px;
+}
+.title p
+{
+    font-size: 20px;
+    color: rgba(127,115,227,0.8);
+}
+
+.imgpersonaje
+{
+    position: relative;
+    margin: 10px;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.1);
+    box-shadow: 5px 5px 30px rgba(0,0,0,0.4);
+}
+.imgpersonaje:hover
+{
+    position: relative;
+    margin: 10px;
+    border-radius: 10px;
+    background-color: rgba(255,255,255,0.1);
+    box-shadow: 5px 5px 30px rgba(0,0,0,0.4);
+
+}
+
+.imgpersonaje img.hov
+{
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    object-fit: contain;
+    opacity: 0;
+    transition: opacity .2s;
+}
+.imgpersonaje:hover img.hov
+{
+    opacity: 1;
+}
+.imgpersonaje:hover img.main
+{
+    opacity: 0;
+}
+
+.despersonaje
+{
+    position: relative;
+    margin: 10px;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.1);
+    box-shadow: 5px 5px 30px rgba(0,0,0,0.4);
+    width: 600px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.despersonaje div
+{
+    display: flex;
+    margin: 30px;
+    padding: 10px;
+    align-items: center;
+
+}
+
+.despersonaje:hover
+{
+    position: relative;
+    margin: 10px;
+    border-radius: 10px;
+    background-color: rgba(255,255,255,0.1);
+    box-shadow: 5px 5px 30px rgba(0,0,0,0.4);
+    width: 600px;
+}
+
+.despersonaje p
+{
+    font-size: 20px;
+    color: black;
+}
+
+.personaje
+{
+    display: flex;
+    justify-content: center;
+}
+
+.end
+{
+    /* padding: 50px;  */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 8vh;
+}
+
+.box
+{
+    width: 100%;
+    height: 640px;
+}
+
+.mini
+{
+    display: flex;
+    margin: 50px;
+    padding: 30px;
+    background-color: rgba(86,174,255);
+    flex-direction: column;
+    align-items: center;
+    overflow-y: scroll;
+    width: 93%;
+    height: 90%;
+
+}
+.mini p
+{
+    font-size: 25px;
+}
+
+#nar
+{
+    background-color: rgba(255,165,0);  
+}
+
+.cardinf
+{
+    margin: 20px;
+    padding: 20px;
+    padding-top: 50px;
+    border-radius: 10px;
+    background-color: rgba(255,255,255, 0.1);
+    box-shadow:5px 5px 30px rgba(0, 0, 0, 0.4);
+    /* height: 420px;
+    width: 400px; */
+}
+
+.cardinf p
+{
+    font-size: 20px;
+    margin: 50px;
+    color: black;
+    padding: 10px;
+    background-color: rgba(127,115,227,0.5);
+    border-radius: 10px;
+}
+
+.boxdev
+{
+    display: flex;
+    justify-content: center;
+    text-align: center; 
+}
+
+#mecanic
+{
+    width: 100px;
+    height: 100px;
+}
+
+.page
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
