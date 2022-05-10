@@ -6,7 +6,8 @@
     list-style: none;
     text-decoration: none;
     /* color: #7f73e3; */
-    color: white;
+    /* color: white; */
+    color: black;
     font-family: 'Signika', sans-serif;
 }
 
@@ -55,6 +56,10 @@ nav
     display: flex;
     width: 40%;
     justify-content: space-around;
+}
+.links a
+{
+    color: white;
 }
 
 .navbar ul li
@@ -209,7 +214,10 @@ nav
     align-items: center;
     min-height: 8vh;
 }
-
+.end p
+{
+    color: white;
+}
 .box
 {
     width: 100%;
@@ -280,4 +288,9 @@ nav
     flex-direction: column;
     justify-content: space-between;
     height: 100%;
+}
+
+#charts
+{
+    color: black;
 }
