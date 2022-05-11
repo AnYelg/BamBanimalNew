@@ -6,5 +6,3 @@ https://youtu.be/8gUAaiQwvIU
 
 ## Link web page
 https://anyelg.github.io/BamBanimalNew/
-
-Prueba para commits en github
