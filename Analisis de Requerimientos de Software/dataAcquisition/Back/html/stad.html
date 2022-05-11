@@ -23,7 +23,7 @@
                 <!-- <li> <a href="https://andydiego13.github.io/Bam-Banimals-Adventure/html/stad.html">Statistics</a> </li> -->
             </ul>
         </nav>
-        <div class="section">
+        <div class="section" id="charts">
             <div class="formInput">
                 <h1>Show Score</h1>
                 <form id="formSelect_score">
@@ -35,8 +35,25 @@
                 <p>When the request ends, the result will be displayed here.</p>
                 <div id="getResults_score"></div>
             </div>
+        </div>
+        
+        <div class="section" id="charts">
+            <div><canvas id="pieChart" height="936" width="1872" style="display: block; height: 468px; width: 936px;"></canvas></div>
+        </div>
+
+        <div>
+            <div><canvas id="barChart" height="936" width="1872" style="display: block; height: 468px; width: 936px;"></canvas></div>
+        </div>
+
+        <script src="../js/chart.min.js"></script>
+        <script src="../js/charts.js"></script>
+        <script src="../js/chart_bar.js"></script>
+
         <div class="end" id="stor">
             <p>Copyright © AAA</p>
         </div>
+
+        
+
     </body>
 </html>
