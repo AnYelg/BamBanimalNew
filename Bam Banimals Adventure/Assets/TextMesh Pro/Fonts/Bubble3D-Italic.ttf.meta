@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: 44e5be70aaa194652b57fc0b64a26445
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Bubble3D
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 21f01647b33474e2dbae6ea1e818e6f2, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
