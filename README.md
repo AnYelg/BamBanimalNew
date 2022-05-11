@@ -5,6 +5,6 @@ Our game Bam! Banimals! Adventure
 https://youtu.be/8gUAaiQwvIU
 
 ## Link web page
-https://andydiego13.github.io/Bam-Banimals-Adventure/
+https://anyelg.github.io/BamBanimalNew/
 
 Prueba para commits en github
